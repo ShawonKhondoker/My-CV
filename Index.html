@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      <style>
+    /* Parent tags */
+    body {
+
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+    }
+
+    .container {
+                
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        margin:0px;
+        text-align: center;
+  justify-content: center;
+    align-items: center;
+    
+    }
+    .headers{
+    background-image: url("hedar.png");
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+    
+
+    header {
+        
+        
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 15px;
+        margin-right:0px;
+    
+  font-size: 36px;
+  color: #ff0000;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  text-transform: capitalize;
+  font-family: "Brush Script MT", cursive;
+}
+
+.name{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: 100px; /* ইমেজের উচ্চতা এখানে পরিবর্তন করুন */
+    margin-right: 10px ;
+    padding:5px;
+    transition: transform 0.3s ease-in-out;
+    border-radius:40% 5px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    filter: grayscale(50%);
+    transform-origin: center center;
+}
+
+        .clock {
+            font-size: 20px;
+            margin: 20px;
+            background-color: #f2f2f2;
+            padding: 5px;
+            border-radius: 5px;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hours {
+            color: #007bff; /* Blue color for hours */
+        }
+
+        .minutes {
+            color: #28a745; /* Green color for minutes */
+        }
+
+        .seconds {
+            color: #dc3545; /* Red color for seconds */
+        }
+
+        .period {
+          font-family: "Brush Script MT", cursive;
+          
+            color: #17a2b8; /* Cyan color for AM/PM indicator */
+        }
+        .amPm{
+          text-align: center;
+        }
+
+.emails{
+  text-align: center;
+  justify-content: center;
+    align-items: center;
+    
+}
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+span {
+  font-size: 16px;
+  color: #007bff;
+  font-family: 'Times New Roman', serif;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+  
+    h2 {
+  font-size: 24px;
+  color: #ff9900;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+    p {
+        margin: 5px 0;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin: 5px 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    blockquote {
+        border-left: 5px solid #007bff;
+        padding-left: 10px;
+    }
+
+    footer {
+        font-style: italic;
+    }
+
+    /* Child tags */
+    #summary p {
+        font-style: italic;
+    }
+
+    #education p {
+        color: #28a745;
+    }
+
+    #experience ul {
+        list-style-type: square;
+    }
+     /* Main section styling */
+  #experience {
+    background: linear-gradient(45deg, #007bff, #ff9900);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    animation: slideIn 1s ease; /* Animation */
+  }
+
+  /* Heading styling */
+  #experience h2 {
+    font-size: 36px;
+    color: #ff9900;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  /* Job title styling */
+  #experience strong {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* List item styling */
+  #experience ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* List item bullet styling */
+  #experience li::before {
+    content: "\2022";
+    color: #ff9900;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  /* Horizontal rule styling */
+  hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+
+  /* CSS Animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+    #skills li {
+        display: inline-block;
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+    }
+    
+  /* Main section styling */
+  #skills {
+    background-image: linear-gradient(45deg, #007bff, #ff9900);
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  /* Heading styling */
+  #skills h2 {
+    font-size: 42px;
+    color: #ff9900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* List item styling */
+  #skills ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* List item bullet styling */
+  #skills li::before {
+    content: "\2022";
+    color: #ff9900;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  /* Individual skill styling */
+  #skills li {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    width: 200px;
+    text-align: center;
+  }
+
+  /* Skill tag styling */
+  .skill-tag {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #121212;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin:3px;
+    margin-bottom: 10px;
+  }
+
+  /* Hover effect */
+  .skill-tag:hover {
+    background-color: #007bff;
+  }
+  
+  
+
+    #qualifications ul li:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+             /* Main section styling */
+  #qualifications {
+    background-color: #f4f4f4;
+    padding: 30px;
+    
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Heading styling */
+  #qualifications h2 {
+    font-size: 26px;
+    color: #ff9900;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* List item styling */
+  #qualifications ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Individual qualification styling */
+  #qualifications li {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin:10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+
+  /* Qualification hover effect */
+  #qualifications li:hover {
+    transform: scale(1.05);
+  }
+
+  /* Hover effect on qualification date */
+  #qualifications li span {
+    font-size: 14px;
+    display: block;
+    color: #666;
+    margin-top: 5px;
+  }
+
+
+    #projects li {
+        list-style-type: disc;
+    }
+   
+  /* Main section styling */
+  #projects {
+    background-color:#2C3539;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Heading styling */
+  #projects h2 {
+    font-size: 36px;
+    color: #ff9900; /* Accent color */
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* List item styling */
+  #projects ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  /* Individual project styling */
+  #projects li {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Animation effect */
+  #projects li:nth-child(odd) {
+    animation: fadeInRight 1s forwards;
+    animation-delay: calc(var(--index) * 0.2s);
+  }
+
+  #projects li:nth-child(even) {
+    animation: fadeInLeft 1s forwards;
+    animation-delay: calc(var(--index) * 0.2s);
+  }
+
+  @keyframes fadeInRight {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Overlay styling for hover effect */
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+
+  .project-overlay a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .project-overlay a:hover {
+    background-color: #ff9900; /* Accent color on hover */
+  }
+
+  /* Hover effect */
+  #projects li:hover .project-overlay {
+    opacity: 1;
+  }
+
+
+
+    #languages li:before {
+        content: "\2022";
+        margin-right: 5px;
+    }
+        /* Main section styling */
+    #languages {
+      background: linear-gradient(45deg, #4a40f0,#B0CFDE, #00f1e1);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Heading styling */
+    #languages h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* List item styling */
+    #languages ul {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    /* Individual language styling */
+    #languages li {
+      font-size: 20px;
+      line-height: 1.6;
+      margin: 5px;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    /* Language proficiency level styling */
+    #languages li:nth-child(1) {
+      background-color: #4a40f0;
+    }
+
+    #languages li:nth-child(2) {
+      background-color: #00f1e1;
+    }
+
+    #languages li:nth-child(3) {
+      background-color: #00f1e1;
+    }
+
+    /* Hover effect */
+    #languages li:hover {
+      background-color: #333;
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    #interests p::first-letter {
+        font-size: 1.2em;
+    }
+        /* Main section styling */
+    #interests {
+      background: linear-gradient(45deg,  #1a9bff,#A9A9A9,#4a40f0,#B0CFDE, #00f1e1);
+      padding: 60px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      margin-bottom: 40px;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Heading styling */
+    #interests h2 {
+      font-size: 38px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 800; /* Bold font weight */
+      font-style: italic; /* Italic font style */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow effect */
+      animation: glow 2s linear infinite; /* Animation */
+    }
+
+    /* Paragraph styling */
+    #interests p {
+      font-size: 24px;
+      line-height: 1.6;
+      transition: font-size 0.3s, transform 0.3s; /* Adding transition */
+    }
+
+    /* Hover effect */
+    #interests:hover {
+      background: linear-gradient(45deg, #1a4bff, #007bff);
+      animation: colorChange 2s infinite alternate; /* Color animation */
+    }
+
+    /* Animation keyframes for colorChange */
+    @keyframes colorChange {
+      from {
+        color: #fff;
+      }
+      to {
+        color: #ff9900; /* Alternate color */
+      }
+    }
+
+    /* Additional styling for different colors */
+    #interests:hover h2 {
+      color: #ff9900; /* Change heading color on hover */
+    }
+
+    #interests:hover p {
+      color: #f5f5f5; /* Change paragraph color on hover */
+      font-size: 28px; /* Change font size on hover */
+      transform: scale(1.1); /* Apply zoom effect on hover */
+    }
+    
+    
+
+    #recent-work ul li:first-child {
+        font-weight: bold;
+    }
+            #recent-work {
+            text-align: center;
+            margin: 50px auto;
+            max-width: auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        #recent-work h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #007bff;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        #recent-work p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        #recent-work strong {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        #recent-work ul {
+            text-align: left;
+            list-style: none;
+            margin-bottom: 30px;
+            padding-left: 0;
+        }
+
+        #recent-work li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #666;
+            text-indent: 20px;
+            position: relative;
+        }
+
+        #recent-work li::before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            color: #007bff;
+        }
+
+        /* Button Styling */
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 18px;
+            letter-spacing: 2px;
+            border: none;
+            text-transform: uppercase;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 767px) {
+            #recent-work h2 {
+                font-size: 28px;
+            }
+
+            #recent-work p {
+                font-size: 18px;
+            }
+
+            #recent-work li {
+                font-size: 16px;
+            }
+
+            .button {
+                font-size: 16px;
+            }
+        }
+
+
+
+
+        /* Testimonials section */
+        #testimonials {
+            margin: 5px auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Testimonial card */
+        .testimonial-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 0px;
+            margin: 0px;
+            display: inline-block;
+            
+            width: 100%;
+        }
+
+        /* Testimonial text */
+        .testimonial-text {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Testimonial footer */
+        .testimonial-footer {
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Additional styling */
+        .testimonial-card blockquote {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        /* Animation */
+        .testimonial-card {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .testimonial-card.fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    #certifications ul li:last-child {
+        color: #dc3545;
+    }
+
+    button.button {
+        background-color: #28a745;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button.button:hover {
+        background-color: #218838;
+    }
+    
+        .btn {
+      background-color: #666;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: opacity 0.3s, background-color 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+            .btn1 {
+            background: linear-gradient(90deg, red, blue,  pink, #f6f007);
+            background-size: 200% auto;
+            transition: background-position 0.5s;
+        }
+        
+        .btn1:hover {
+            background-position: right;
+            color: red;
+        }
+</style>
+
+    </style>
+</head>
+<body>
+    <div class=" container">
+             <div class="headers">
+        <header>
+
+         <div class="name">
+
+  <img class="responsive-image" src="Screenshot_20230727-180207~2.png" alt="Image">
+         
+          <div class="clock">
+        <span class="hours" id="hours">00</span>
+        <span>:</span>
+        <span class="minutes" id="minutes">00</span>
+        <span>:</span>
+        <span class="seconds" id="seconds">00</span>
+<div class="amPm">
+          <span class="period" id="period">AM</span>
+</div>
+    </div>  
+              <h1>Shawon Khondoker</h1>
+         </div>
+                     </blockquote>
+         <div class="emails">
+              <p><span>Email :</span> shawonondoker0@gmail.com</p>
+            <p><span>Phone :</span> +88 01714956817</p>
+            <p><span>Address : </span> Gournadi, Barishal, Bangladesh</p>
+         </div>
+
+        </header>
+                          </div>
+        <hr>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Highly motivated and skilled professional with expertise in web development and problem-solving. Passionate about coding and learning new technologies.</p>
+        </section>
+        <hr>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Computer Science</strong> -
+Government Gournadi University College, Gournadi, Barisal, Bangladesh - 2015</p>
+        </section>
+        <hr>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Web Developer</strong> - ABC Tech Solutions - 2019 to Present</p>
+            <ul>
+                <li>Developed and maintained responsive web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with the team to implement new features and improve user experience.</li>
+                <li>Participated in code reviews and provided constructive feedback.</li>
+            </ul>
+        </section>
+        <hr>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>
+      <span class="skill-tag">HTML5</span>
+      <span class="skill-tag">CSS3</span>
+      <span class="skill-tag">JavaScript</span>
+    </li>
+    <li>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">Vue.js</span>
+    </li>
+    <li>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">Express.js</span>
+    </li>
+    <li>
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">GitHub</span>
+    </li>
+    <li>
+      <span class="skill-tag">Responsive Web Design</span>
+    </li>
+    <li>
+      <span class="skill-tag">User Interface Design</span>
+    </li>
+    <li>
+      <span class="skill-tag">Data Analysis</span>
+    </li>
+    <li>
+      <span class="skill-tag">Problem Solving</span>
+    </li>
+  </ul>
+</section>
+
+        <hr>
+    
+        
+        <section id="qualifications">
+  <h2>Qualifications</h2>
+  <ul>
+    <li>
+      Web Development Certification - Online Course
+      <span>2019</span>
+    </li>
+    <li>
+      Advanced JavaScript Training - Tech Institute
+      <span>2023</span>
+    </li>
+  </ul>
+</section>
+
+       
+        <hr>
+     
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li style="--index: 1;">
+      <strong>Personal Portfolio Website</strong> - Created a portfolio website showcasing my web development projects.
+      <div class="project-overlay">
+        <a href="#">View Project</a>
+      </div>
+    </li>
+    <li style="--index: 2;">
+      <strong>E-commerce Website</strong> - Developed an e-commerce platform using React and Node.js.
+      <div class="project-overlay">
+        <a href="#">View Project</a>
+      </div>
+    </li>
+  </ul>
+</section>
+        <hr>
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>Spanish (Intermediate)</li>
+                 <li>Bangla (Bangladesh)</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>In my free time, I enjoy hiking, reading, and experimenting with new coding projects.</p>
+        </section>
+        <hr>
+
+        
+        <section id="recent-work">
+        <h2>Recent Work</h2>
+        <p><strong>Senior Web Developer</strong> - <span style="color: #007bff;">XYZ Web Solutions</span> - 2022 to Present</p>
+        <ul>
+            <li>Lead a team of developers in building complex web applications for clients.</li>
+            <li>Implemented new design patterns and optimized application performance.</li>
+        </ul>
+        <a class="button" href="#">View More</a>
+    </section>
+        <hr>
+
+        
+
+
+ <hr>
+       
+        
+        
+        
+        <section id="testimonials">
+        <h2 style="color: #007bff; font-size: 32px;">Testimonials</h2>
+        <div class="testimonial-card fade-in">
+            <blockquote>
+                <p class="testimonial-text">"John is an exceptional developer with a keen eye for detail. His dedication to quality and passion for coding make him an asset to any team."</p>
+                <footer class="testimonial-footer" style="color: #ff6600;">- Shawon Khondoker, Senior Developer at ABC Tech Solutions</footer>
+            </blockquote>
+        </div>
+    </section>
+        <hr>
+           
+        <button id="downloadButton" class="btn btn1">Download</button>
+
+    </div>
+
+    <script>
+    function updateClock() {
+            const now = new Date();
+            const utcOffset = 6; // Bangladesh Time is UTC+6
+            const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000);
+            const bdTime = new Date(utcTime + (3600000 * utcOffset));
+
+            let hours = bdTime.getHours();
+            const minutes = String(bdTime.getMinutes()).padStart(2, '0');
+            const seconds = String(bdTime.getSeconds()).padStart(2, '0');
+
+            let period = "AM";
+            if (hours >= 12) {
+                period = "PM";
+            }
+
+            // Convert to 12-hour format
+            hours = hours % 12 || 12;
+
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+            document.getElementById('period').textContent = period;
+        }
+
+        setInterval(updateClock, 1000);
+  
+    
+   
+        //Download//
+        
+        document.getElementById("downloadButton").addEventListener("click", function () {
+            const container = document.querySelector(".container");
+            const htmlContent = container.innerHTML;
+            const blob = new Blob([htmlContent], { type: "text/html" });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "my_content.html";
+            a.click();
+            window.URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+</html>
